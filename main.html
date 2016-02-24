@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<TITLE>Meal Calulator</TITLE>
+<script type="text/javascript" src="calculator.js" ></script>
+</HEAD>
+
+<!-- Create dinner objects which represent a single diner -->
+<!-- Add dishes to a diner's meal -->
+<!-- Total up the cost of all of the diners' meals -->
+<!-- Add a fixed tax percentage to the total bill -->
+<!-- Add a percentage tip to the total bill -->
+<!-- Split the bill fairly among the diners -->
+<!-- Each diner should pay the tax on their own food -->
+<!-- Each diner should pay an equal share of the tip -->
+<!-- If you choose to round the amounts, you may notice that the sum of the amounts does not equal the total bill amount anymore. Don't worry about that, or distribute the discrepancy in a fair way for an extra challenge. -->
+<!-- Print out a total bill -->
+<!-- Print a breakdown for what each diner owes -->
+
+DINERS: <div id="diners">0</div>
+<button onclick="addDiner()">
+  More the merrier! (add another diner to your party)
+</button>
+
+<br>DISHES ORDERED: <div id="dishes">0</div>
+<button onclick="addDish()">
+  Would you like fries with that shake? (add a dish)
+</button>
+
+<br>TOTAL BILL: <div id="total">0</div>
+<button onclick="checkout()">
+  Check-bin! (calculate the total: total+tax+tip split amongst the hipsters; print it out)
+</button>
+<br>
+<div id="receipt">0</div>
+
+</BODY>
+</HTML>
